@@ -22,7 +22,8 @@ Dependencies
 
 Quick Setup
 -----------
-
+- First clone this repository.
+- Then ...
 ```bash
 $ make download  # Or `make build` if you prefer to build the image locally
 $ make install
