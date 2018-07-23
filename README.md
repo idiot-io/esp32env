@@ -1,5 +1,6 @@
 ESP-32 Build Environment for Docker
 ===================================
+[![Docker Pulls](https://img.shields.io/docker/pulls/konovadocker/esp32-toolchain.svg)](https://hub.docker.com/r/konovadocker/esp32-toolchain/) [![Docker Stars](https://img.shields.io/docker/stars/konovadocker/esp32-toolchain.svg)](https://hub.docker.com/r/konovadocker/esp32-toolchain/) [![](https://images.microbadger.com/badges/image/konovadocker/esp32-toolchain.svg)](https://microbadger.com/images/konovadocker/esp32-toolchain "Get your own image badge on microbadger.com") [![License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat)](https://github.com/konovadocker/esp32-toolchain/blob/master/LICENSE)
 
 **esp32env** helps you to work with Espressif IoT Development Framework without
 having to install all the toolchain.
