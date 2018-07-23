@@ -1,8 +1,8 @@
 download:
-	docker pull nilp0inter/esp32env
+	docker pull konovagit/esp32env
 
 build:
-	docker build . -t nilp0inter/esp32env
+	docker build . -t konovagit/esp32env
 
 install:
 	sudo cp esp32env /usr/local/bin

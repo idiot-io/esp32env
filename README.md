@@ -1,8 +1,6 @@
 ESP-32 Build Environment for Docker
 ===================================
 
-[![Docker Pulls](https://img.shields.io/docker/pulls/nilp0inter/esp32env.svg)](https://hub.docker.com/r/nilp0inter/esp32env/) [![Docker Stars](https://img.shields.io/docker/stars/nilp0inter/esp32env.svg)](https://hub.docker.com/r/nilp0inter/esp32env/) [![](https://images.microbadger.com/badges/image/nilp0inter/esp32env.svg)](https://microbadger.com/images/nilp0inter/esp32env "Get your own image badge on microbadger.com") [![License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat)](https://github.com/nilp0inter/esp32env/blob/master/LICENSE)
-
 **esp32env** helps you to work with Espressif IoT Development Framework without
 having to install all the toolchain.
 
@@ -48,5 +46,5 @@ parameters.
 Acknowledgements
 ----------------
 
-**esp32env** is a derived work of Brian Schwind's esp-32-build
-(bschwind/esp-32-build). Thanks!
+**esp32env** is a derived work of Brian Schwind's esp-32-build and nilp0inter/esp32env
+Thanks!

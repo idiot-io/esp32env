@@ -1,4 +1,5 @@
-FROM ubuntu:14.04
+
+FROM ubuntu:16.04
 
 # Create some directories
 RUN mkdir -p /esp/project
@@ -13,12 +14,12 @@ RUN apt-get -qq update \
     && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
 # Get the ESP32 toolchain and extract it to /esp/xtensa-esp32-elf
-RUN wget -O /esp/esp-32-toolchain.tar.gz https://dl.espressif.com/dl/xtensa-esp32-elf-linux64-1.22.0-61-gab8375a-5.2.0.tar.gz \
+RUN wget -O /esp/esp-32-toolchain.tar.gz https://dl.espressif.com/dl/xtensa-esp32-elf-linux64-1.22.0-73-ge28a011-5.2.0.tar.gz \
     && tar -xzf /esp/esp-32-toolchain.tar.gz -C /esp \
     && rm /esp/esp-32-toolchain.tar.gz
 
 # Get the latest release of ESP-IDF from github and install it
-RUN git clone -b v2.0 --recursive https://github.com/espressif/esp-idf.git /esp/esp-idf
+RUN git clone -b v3.0.2 --recursive https://github.com/espressif/esp-idf.git /esp/esp-idf
 
 # A "cool" prompt
 RUN echo "PS1='(esp32) \\w\\a$ '" >> /root/.bashrc
