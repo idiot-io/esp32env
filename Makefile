@@ -1,8 +1,8 @@
 download:
-	docker pull konovagit/esp32env
+	docker pull konovadocker/esp32-toolchain
 
 build:
-	docker build . -t konovagit/esp32env
+	docker build . -t konovadocker/esp32-toolchain
 
 install:
 	sudo cp esp32env /usr/local/bin
