@@ -19,7 +19,7 @@ RUN wget -O /esp/esp-32-toolchain.tar.gz https://dl.espressif.com/dl/xtensa-esp3
     && rm /esp/esp-32-toolchain.tar.gz
 
 # Get the latest release of ESP-IDF from github and install it
-RUN git clone -b v3.0.2 --recursive https://github.com/espressif/esp-idf.git /esp/esp-idf
+RUN git clone -b release/v3.0 --recursive https://github.com/espressif/esp-idf.git /esp/esp-idf
 
 # A "cool" prompt
 RUN echo "PS1='(esp32) \\w\\a$ '" >> /root/.bashrc
